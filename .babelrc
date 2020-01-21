@@ -1,0 +1,11 @@
+{
+  "presets": ["stage-2", ["es2015", { "modules": false }]],
+  "env": {
+    "commonjs": {
+      "presets": ["es2015"]
+    },
+    "es": {
+      "plugins": ["./tools/use-lodash-es"]
+    }
+  }
+}
